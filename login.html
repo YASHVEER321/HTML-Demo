@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login Form</title>
+ <!--  -->
+  <!--  -->
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!--  -->
+  <style type="text/css">
+    .container {
+      padding-top: 20px;
+      padding-bottom: 60px;
+      border: 5px solid black;
+      height: 1147px;
+    }
+    
+    .login {
+      height: 280px;
+      width: 50%;
+      border: 2px solid greenyellow;
+      background-color:gray;
+       margin: 0 auto;
+
+    }
+        .btn1 {
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+        height: 46px;
+    width: 19%;
+    background-color: blueviolet;
+  }
+       .reg {
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+        height: 46px;
+    width: 25%;
+    background-color: yellowgreen;
+  }
+  .reg:hover{
+    background-color: green;
+  }
+   .btn1:hover{
+    background-color: green;
+  }
+       .txt {
+    border: none;
+    color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+        height: 40px;
+    width: 58%  ;
+    background-color: navajowhite;
+    text-decoration: none;
+    text-align: center
+  }
+
+    @media only screen and (max-width: 630px) {
+  .txt {
+    width: 100%  ;
+  }
+  .reg {
+    width: 100%  ;
+  }
+  .login{
+    width: 100%
+  }
+  .btn1{
+    width: 100%
+  }
+}
+.success {background-color: #4CAF50;} /* Green */
+    }
+  </style>
+</head>
+
+<body style="background-color: #75FF33">
+
+  <div style="text-align: center;padding-top: 40px">
+  <div class="login">
+    <p><h1 style="text-align: center;">Login Here</h1></p>
+    <form action="">
+      <p><input type="text" name="userName" placeholder="User Name" class="txt"></p><br>
+      <p><input type="password" name="userName" placeholder="password" class="txt"></p>
+      <p>
+      <!-- <a href="http://google.com" class="reg">Register Here</a> -->
+      <input type="button" onclick="location.href='/home/yash/Documents/angular/HTML_DEMO/HTML-Demo/registration.html';" value="Signup" class="reg" />
+      <input type="submit" name="submit" class="btn1" ></p>
+      <!-- <p><button class="btn success">Success</buttontxtp> -->
+    </form>
+  </div>
+  </div>
+</body>
+
+</html>
